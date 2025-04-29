@@ -38,17 +38,6 @@ public class SenseOS: NSObject{
         }
     }
     
-    static func isEmpty(value: String?) -> Bool {
-        return value == nil || trimValue(value: value!) == "";
-    }
-    static func trimValue(value: String) -> String {
-        return value.trimmingCharacters(in: .whitespacesAndNewlines)
-    }
-    
-    static func clearNil(value: String?) -> String {
-        return value == nil ? "": trimValue(value: value!)
-    }
-    
     public static func initSDK(senseConfig: SenseOSConfig?, withDelegate: SenseOSDelegate?) {
         self.delegate = withDelegate
         self.senseConfig = senseConfig
