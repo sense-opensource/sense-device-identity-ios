@@ -1,7 +1,7 @@
 
 
 import UIKit
-import SenseOS_Demo
+import SenseOS
 
 class DeviceIdentityController: UIViewController, SenseOSDelegate {
   
@@ -84,8 +84,8 @@ class DeviceIdentityController: UIViewController, SenseOSDelegate {
         let baseHeight: CGFloat = 50
         let lineHeight: CGFloat = 18.5
         let newHeight = baseHeight + CGFloat(linesCountss) * lineHeight
-         let viewConstantHeight = CGFloat(textViewConstantHeightOutlet.constant)
-        let totalConstant = viewConstantHeight + CGFloat(linesCountss)
+      //   let viewConstantHeight = CGFloat(textViewConstantHeightOutlet.constant)
+      //  let totalConstant = viewConstantHeight + CGFloat(linesCountss)
         textViewConstantHeightOutlet.constant = newHeight
         viewConstantHeightOutlet.constant = newHeight + 20
         UIView.animate(withDuration: 0.3) {

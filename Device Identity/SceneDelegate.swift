@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  Sample
-//
-//  Created by IPPO383 on 12/04/25.
-//
-
 import UIKit
 
 @available(iOS 13.0, *)

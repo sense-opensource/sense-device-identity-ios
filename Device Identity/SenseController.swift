@@ -1,7 +1,7 @@
 
 
 import UIKit
-import SenseOS_Demo
+import SenseOS
 
 @available(iOS 13.0, *)
 class SenseController: UIViewController,SenseOSDelegate {
@@ -34,10 +34,9 @@ class SenseController: UIViewController,SenseOSDelegate {
             
             let encodedString = "\(data)"
             
-            if let beautifiedJSON = self.beautifyJSON(encodedString) {
-              //  self.lblData.text = beautifiedJSON
+            if self.beautifyJSON(encodedString) != nil {
+             
             }
-            print("\(data)")
         }
     }
     
