@@ -16,58 +16,44 @@
 <img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Fork-orange.svg?logo=fork"> <img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Star-yellow.svg?logo=star"> <img width="6.5%" src="https://custom-icon-badges.demolab.com/badge/Commit-green.svg?logo=git-commit&logoColor=fff"> 
 </p>
 
-<p> Sense is a client side library that enables you to identify users by pinpointing their hardware and software characteristics. This is done by computing a token that stays consistent in spite of any manipulation.</p>                           
-<p> This tracking method works even in the browser's incognito mode and is not cleared by flushing the cache, closing the browser or restarting the operating system, using a VPN or installing AdBlockers. Sense is available as SenseOS for every open source requirement and is different from Sense PRO, our extremely accurate and detailed product.</p>
-
-
-<p> Sense’s real time demo : https://pro.getsense.co/
-
-**Try visiting the same page in an incognito mode or switch on the VPN and 
-notice how the visitor identifier remains the same in spite of all these changes!**
-
 <h3>Getting started with Sense </h3>
 
-```
-## Sense - iOS SDK
+<h3>Sense - iOS SDK</h3>
 
 Sense is a device intelligence and identification tool. This tool collects a comprehensive set of attributes unique to a device or browser, forming an identity that will help businesses.
 Requirements
 
-```
-## Requirements
+
+<h3>Requirements</h3>
 
 * OS 12.0 or above
 * Swift version 5.0 and above
-```
 
 Note: If the application does not have the listed permissions, the values collected using those permissions will be ignored. To provide a valid device details, we recommend employing as much permission as possible based on your use-case.
 
-#### Step 1 - Import SDK
+Step 1 - Import SDK
 
-```
+
 * import SenseOS
-```
 
-#### Step 2 - Add Delegate Method
+Step 2 - Add Delegate Method
 
- Add the delegate method in your Controller Class file
+Add the delegate method in your Controller Class file
 
-```
 SenseOSDelegate
 
-```
 
-#### Step 3 - Get Device Details
+Step 3 - Get Device Details
 
- Use the line below to invoke any button action or ViewDidLoad to get the DeviceDetails.
+Use the line below to invoke any button action or ViewDidLoad to get the DeviceDetails.
 
 ```
 SenseOS.getSenseDetails(withDelegate: self)
 ```
 
-#### Step 4 - Location Permission (Optional)
+Step 4 - Location Permission (Optional)
 
- You have to add this permission in Info.plist to get Device Location Information.
+You have to add this permission in Info.plist to get Device Location Information.
 
 ```
  <key>NSLocationWhenInUseUsageDescription</key>
@@ -79,9 +65,9 @@ SenseOS.getSenseDetails(withDelegate: self)
 
 ```
 
-#### Step 5 - Implement Delegate Method
+Step 5 - Implement Delegate Method
 
- Set and Implement our Delegate method to receive the Callback details
+Set and Implement our Delegate method to receive the Callback details
 
 ```
  extension ViewController: SenseOSDelegate{
@@ -95,7 +81,7 @@ SenseOS.getSenseDetails(withDelegate: self)
 
 ```
 
-#### Sample Program
+Sample Program
 
 Here you can find the demonstration to do the integration.
 
@@ -128,7 +114,7 @@ class SenseOSController: UIViewController, SenseOSDelegate {
 2️⃣ Download the code as a ZIP file : Host/clone the code in your local system or website  
 3️⃣ Run the installer : Start testing the accuracy of your desired metrics 
 
-#### With Sense, you can  
+<h4>With Sense, you can</h4>  
 
 ✅ Predict user intent : Identify the good from the bad visitors with precision  
 ✅ Create user identities : Tokenise events with a particular user and device  
@@ -136,9 +122,9 @@ class SenseOSController: UIViewController, SenseOSDelegate {
 ✅ Protect against Identity spoofing : Prevent users from impersonation  
 ✅ Stop device or browser manipulation : Detect user behaviour anomalies 
 
-### Resources 
+<h4>Resources</h4> 
 
-#### MIT license : 
+MIT license : 
 
 Sense OS is available under the <a href="https://github.com/sense-opensource/sense-device-identity-ios/blob/main/LICENSE"> MIT license </a>
 
