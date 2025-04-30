@@ -22,8 +22,8 @@
 
 <p> Sense’s real time demo : https://pro.getsense.co/
 
-*** Try visiting the same page in an incognito mode or switch on the VPN and 
-notice how the visitor identifier remains the same in spite of all these changes!*** 
+**Try visiting the same page in an incognito mode or switch on the VPN and 
+notice how the visitor identifier remains the same in spite of all these changes!**
 
 <h3>Getting started with Sense </h3>
 
