@@ -33,15 +33,15 @@ Note: If the application does not have the listed permissions, the values collec
 
 Step 1 - Import SDK
 
-
-* import SenseOS
-
+```
+ import SenseOS
+````
 Step 2 - Add Delegate Method
 
 Add the delegate method in your Controller Class file
-
+````
 SenseOSDelegate
-
+````
 
 Step 3 - Get Device Details
 
