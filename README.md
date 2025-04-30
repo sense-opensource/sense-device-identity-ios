@@ -28,7 +28,97 @@ notice how the visitor identifier remains the same in spite of all these changes
 <h3>Getting started with Sense </h3>
 
 ```
-(code snippet)  
+## Sense - iOS SDK
+
+Sense is a device intelligence and identification tool. This tool collects a comprehensive set of attributes unique to a device or browser, forming an identity that will help businesses.
+Requirements
+
+```
+## Requirements
+
+* OS 12.0 or above
+* Swift version 5.0 and above
+```
+
+Note: If the application does not have the listed permissions, the values collected using those permissions will be ignored. To provide a valid device details, we recommend employing as much permission as possible based on your use-case.
+
+#### Step 1 - Import SDK
+
+```
+* import SenseOS
+```
+
+#### Step 2 - Add Delegate Method
+
+ Add the delegate method in your Controller Class file
+
+```
+SenseOSDelegate
+
+```
+
+#### Step 3 - Get Device Details
+
+ Use the line below to invoke any button action or ViewDidLoad to get the DeviceDetails.
+
+```
+SenseOS.getSenseDetails(withDelegate: self)
+```
+
+#### Step 4 - Location Permission (Optional)
+
+ You have to add this permission in Info.plist to get Device Location Information.
+
+```
+ <key>NSLocationWhenInUseUsageDescription</key>
+ <string>This app needs access to your location to provide location-based services.</string>
+ <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+ <string>Location access is required for enhanced app functionality.</string>
+ <key>NSLocationWhenInUseUsageDescription</key>
+ <string>Require to get user location</string>
+
+```
+
+#### Step 5 - Implement Delegate Method
+
+ Set and Implement our Delegate method to receive the Callback details
+
+```
+ extension ViewController: SenseOSDelegate{
+    func onFailure(message: String) {
+        // Failure Callback.
+    }
+    func onSuccess(data: [String : Any]) {
+        // Success Callback
+    }
+}
+
+```
+
+#### Sample Program
+
+Here you can find the demonstration to do the integration.
+
+```
+import UIKit
+import SenseOS
+
+class SenseOSController: UIViewController, SenseOSDelegate {
+
+  override func viewDidLoad() {
+      super.viewDidLoad()
+	SenseOS.getSenseDetails(withDelegate: self)
+      
+  }
+
+  @objc func onSuccess(data: String) {     
+      // Handle success callback
+  }
+  @objc func onFailure(message: String) {
+      // Handle failure callback
+  }
+}
+
 ``` 
 <h3>Run this code here : (sandbox environment to check and verify the code)</h3>
 

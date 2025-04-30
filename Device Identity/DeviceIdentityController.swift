@@ -23,7 +23,7 @@ class DeviceIdentityController: UIViewController, SenseOSDelegate {
         super.viewDidLoad()
         
         SenseOS.getSenseDetails(withDelegate: self)
-        
+       
         viewSenseInfo.applyBorderAndShadow(borderWidth: 0.3, borderColor: UIColor.lightGray, cornerRadius: 10)
         viewDeviceDetails.applyBorderAndShadow(borderWidth: 0.3, borderColor: UIColor.lightGray, cornerRadius: 10)
         viewJson.roundCornersWithBorder(
