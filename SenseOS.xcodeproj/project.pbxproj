@@ -10,7 +10,6 @@
 		7EEECBD32DC1EE4400EFE9E1 /* SenseOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEECBD22DC1EE4400EFE9E1 /* SenseOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EEECBDA2DC1EEC400EFE9E1 /* SenseOSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEECBD92DC1EEC400EFE9E1 /* SenseOSConfig.swift */; };
 		7EEECBDC2DC1EEDD00EFE9E1 /* SenseOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEECBDB2DC1EEDD00EFE9E1 /* SenseOS.swift */; };
-		7EEECBE02DC1EEF800EFE9E1 /* DeviceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEECBDF2DC1EEF800EFE9E1 /* DeviceDetails.swift */; };
 		7EEECBE22DC1EF0100EFE9E1 /* Hashing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEECBE12DC1EF0100EFE9E1 /* Hashing.swift */; };
 		7EEECBEA2DC1EF6300EFE9E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEECBE92DC1EF6300EFE9E1 /* AppDelegate.swift */; };
 		7EEECBEC2DC1EF6300EFE9E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEECBEB2DC1EF6300EFE9E1 /* SceneDelegate.swift */; };
@@ -68,7 +67,6 @@
 		7EEECBD22DC1EE4400EFE9E1 /* SenseOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenseOS.h; sourceTree = "<group>"; };
 		7EEECBD92DC1EEC400EFE9E1 /* SenseOSConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenseOSConfig.swift; sourceTree = "<group>"; };
 		7EEECBDB2DC1EEDD00EFE9E1 /* SenseOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenseOS.swift; sourceTree = "<group>"; };
-		7EEECBDF2DC1EEF800EFE9E1 /* DeviceDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceDetails.swift; path = "../../sense_iOS/sense-device-identity-ios/SenseOS_Demo/DeviceDetails.swift"; sourceTree = "<group>"; };
 		7EEECBE12DC1EF0100EFE9E1 /* Hashing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hashing.swift; sourceTree = "<group>"; };
 		7EEECBE72DC1EF6300EFE9E1 /* Device Identity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Device Identity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EEECBE92DC1EF6300EFE9E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -142,7 +140,6 @@
 				7EEECBD22DC1EE4400EFE9E1 /* SenseOS.h */,
 				7EEECBD92DC1EEC400EFE9E1 /* SenseOSConfig.swift */,
 				7EEECBDB2DC1EEDD00EFE9E1 /* SenseOS.swift */,
-				7EEECBDF2DC1EEF800EFE9E1 /* DeviceDetails.swift */,
 				7EEECBE12DC1EF0100EFE9E1 /* Hashing.swift */,
 			);
 			path = SenseOS;
@@ -318,7 +315,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EEECBE22DC1EF0100EFE9E1 /* Hashing.swift in Sources */,
-				7EEECBE02DC1EEF800EFE9E1 /* DeviceDetails.swift in Sources */,
 				7EEECBDC2DC1EEDD00EFE9E1 /* SenseOS.swift in Sources */,
 				7EEECBDA2DC1EEC400EFE9E1 /* SenseOSConfig.swift in Sources */,
 			);
