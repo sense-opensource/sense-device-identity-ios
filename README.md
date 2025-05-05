@@ -16,7 +16,7 @@
 <img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Fork-orange.svg?logo=fork"> <img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Star-yellow.svg?logo=star"> <img width="6.5%" src="https://custom-icon-badges.demolab.com/badge/Commit-green.svg?logo=git-commit&logoColor=fff"> 
 </p>
 
-### 🖱️ User Activity
+### 🖱️ Device Identity
 
 ![IP Address](https://img.shields.io/badge/IP_Address-blue)
 ![Location](https://img.shields.io/badge/Location-green)
