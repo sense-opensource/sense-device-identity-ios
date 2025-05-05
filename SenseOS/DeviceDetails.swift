@@ -641,7 +641,7 @@ func getBootTimeInfo() -> String {
     if let lastBootTime = getLastBootTime() {
         return formatDateToJSONString(date: lastBootTime) // Return formatted boot time
     } else {
-        return "unknown" 
+        return "unknown"
     }
 }
 
@@ -1222,3 +1222,4 @@ class KeychainHelper {
         }
     }
 }
+

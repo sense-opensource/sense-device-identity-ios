@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EA9BC012DC8E5E600DB4436 /* DeviceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9BC002DC8E5E600DB4436 /* DeviceDetails.swift */; };
 		7EEECBD32DC1EE4400EFE9E1 /* SenseOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEECBD22DC1EE4400EFE9E1 /* SenseOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EEECBDA2DC1EEC400EFE9E1 /* SenseOSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEECBD92DC1EEC400EFE9E1 /* SenseOSConfig.swift */; };
 		7EEECBDC2DC1EEDD00EFE9E1 /* SenseOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEECBDB2DC1EEDD00EFE9E1 /* SenseOS.swift */; };
@@ -36,7 +37,6 @@
 		7EEECC282DC1F21400EFE9E1 /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EEECC142DC1F08700EFE9E1 /* Satoshi-Medium.otf */; };
 		7EEECC292DC1F21400EFE9E1 /* Satoshi-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EEECC152DC1F08D00EFE9E1 /* Satoshi-MediumItalic.otf */; };
 		7EEECC2A2DC1F21400EFE9E1 /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EEECC162DC1F09700EFE9E1 /* Satoshi-Regular.otf */; };
-		7EEECCEE2DC2228A00EFE9E1 /* DeviceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEECCED2DC2228A00EFE9E1 /* DeviceDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +64,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7EA9BC002DC8E5E600DB4436 /* DeviceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetails.swift; sourceTree = "<group>"; };
 		7EEECBCF2DC1EE4400EFE9E1 /* SenseOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SenseOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EEECBD22DC1EE4400EFE9E1 /* SenseOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenseOS.h; sourceTree = "<group>"; };
 		7EEECBD92DC1EEC400EFE9E1 /* SenseOSConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenseOSConfig.swift; sourceTree = "<group>"; };
@@ -94,7 +95,6 @@
 		7EEECC162DC1F09700EFE9E1 /* Satoshi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.otf"; sourceTree = "<group>"; };
 		7EEECC172DC1F09F00EFE9E1 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		7EEECC192DC1F0A400EFE9E1 /* TopCornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCornerRadius.swift; sourceTree = "<group>"; };
-		7EEECCED2DC2228A00EFE9E1 /* DeviceDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceDetails.swift; path = ../../../../SenseOS_Demo/SenseOS_Demo/DeviceDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +142,8 @@
 				7EEECBD22DC1EE4400EFE9E1 /* SenseOS.h */,
 				7EEECBD92DC1EEC400EFE9E1 /* SenseOSConfig.swift */,
 				7EEECBDB2DC1EEDD00EFE9E1 /* SenseOS.swift */,
-				7EEECCED2DC2228A00EFE9E1 /* DeviceDetails.swift */,
 				7EEECBE12DC1EF0100EFE9E1 /* Hashing.swift */,
+				7EA9BC002DC8E5E600DB4436 /* DeviceDetails.swift */,
 			);
 			path = SenseOS;
 			sourceTree = "<group>";
@@ -317,7 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EEECCEE2DC2228A00EFE9E1 /* DeviceDetails.swift in Sources */,
+				7EA9BC012DC8E5E600DB4436 /* DeviceDetails.swift in Sources */,
 				7EEECBE22DC1EF0100EFE9E1 /* Hashing.swift in Sources */,
 				7EEECBDC2DC1EEDD00EFE9E1 /* SenseOS.swift in Sources */,
 				7EEECBDA2DC1EEC400EFE9E1 /* SenseOSConfig.swift in Sources */,
