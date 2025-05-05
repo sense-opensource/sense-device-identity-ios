@@ -16,6 +16,23 @@
 <img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Fork-orange.svg?logo=fork"> <img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Star-yellow.svg?logo=star"> <img width="6.5%" src="https://custom-icon-badges.demolab.com/badge/Commit-green.svg?logo=git-commit&logoColor=fff"> 
 </p>
 
+### 🖱️ User Activity
+
+![IP Address](https://img.shields.io/badge/IP_Address-blue)
+![Location](https://img.shields.io/badge/Location-green)
+![Screen Resolution](https://img.shields.io/badge/Screen_Resolution-orange)
+![Connection](https://img.shields.io/badge/Connection-purple)
+![Sense ID](https://img.shields.io/badge/Sense_ID-blue)
+![Media](https://img.shields.io/badge/Media-green)
+![Call Status](https://img.shields.io/badge/Call_Status-orange)
+![Location IP Address](https://img.shields.io/badge/Location_IP_Address-purple)
+![Memory Information](https://img.shields.io/badge/Memory_Information-blue)
+![Proximity Sensor Data](https://img.shields.io/badge/Proximity_Sensor_Data-green)
+![System Storage](https://img.shields.io/badge/System_Storage-orange)
+![Battery Informations](https://img.shields.io/badge/Battery_Informations-purple)
+![Device Informations](https://img.shields.io/badge/Device_Informations-green)
+
+
 <h3>Getting started with Sense </h3>
 
 <h3>Sense - iOS SDK</h3>
