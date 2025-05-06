@@ -66,7 +66,8 @@ Use the line below to invoke any button action or ViewDidLoad to get the DeviceD
 
 ```
 SenseOS.getSenseDetails(withDelegate: self)
-Sense.initSDK(senseConfig: SenseOSConfig, withDelegate: self)
+let config = SenseOSConfig()
+Sense.initSDK(senseConfig: config, withDelegate: self)
 ```
 
 Step 4 - Location Permission (Optional)
