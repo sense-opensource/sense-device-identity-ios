@@ -48,29 +48,35 @@ Requirements
 
 Note: If the application does not have the listed permissions, the values collected using those permissions will be ignored. To provide a valid device details, we recommend employing as much permission as possible based on your use-case.
 
-Step 1 - Import SDK
+Step 1 - Install SDK
+
+```swift
+ pod 'SenseOS', '~> 0.0.2'
+````
+
+Step 2 - Import SDK
 
 ```
  import SenseOS
 ````
-Step 2 - Add Delegate Method
+Step 3 - Add Delegate Method
 
 Add the delegate method in your Controller Class file
 ````
 SenseOSDelegate
 ````
 
-Step 3 - Get Device Details
+Step 4 - Get Device Details
 
 Use the line below to invoke any button action or ViewDidLoad to get the DeviceDetails.
 
 ```
-SenseOS.getSenseDetails(withDelegate: self)
+SenseOSSDK.getSenseDetails(withDelegate: self)
 let config = SenseOSConfig()
-Sense.initSDK(senseConfig: config, withDelegate: self)
+SenseOSSDK.initSDK(senseConfig: config, withDelegate: self)
 ```
 
-Step 4 - Location Permission (Optional)
+Step 5 - Location Permission (Optional)
 
 You have to add this permission in Info.plist to get Device Location Information.
 
@@ -84,7 +90,7 @@ You have to add this permission in Info.plist to get Device Location Information
 
 ```
 
-Step 5 - Implement Delegate Method
+Step 6 - Implement Delegate Method
 
 Set and Implement our Delegate method to receive the Callback details
 
@@ -112,8 +118,9 @@ class SenseOSController: UIViewController, SenseOSDelegate {
 
   override func viewDidLoad() {
       super.viewDidLoad()
-	SenseOS.getSenseDetails(withDelegate: self)
-	Sense.initSDK(senseConfig: SenseOSConfig, withDelegate: self)
+	SenseOSSDK.getSenseDetails(withDelegate: self)
+        let config = SenseOSConfig()
+        SenseOSSDK.initSDK(senseConfig: config, withDelegate: self)
       
   }
 
