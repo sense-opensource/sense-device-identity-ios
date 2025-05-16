@@ -57,9 +57,8 @@ public class SenseOS: NSObject{
                 let senseID = KeychainHelper.shared.getOrCreateSenseID()
                 
                 let data: [String: Any] = [
-                    "str": [
+                    "device_details": [
                         "version": "0.0.1",
-                        "senseID": senseID,
                         "zone": DeviceDetail().getZone(),
                         "device": DeviceDetail().getDeviceDetail(),
                         "language": getLanguageInfo() as Any,
@@ -69,6 +68,7 @@ public class SenseOS: NSObject{
                         "battery": DeviceDetail().getBattery(),
                         "connection": DeviceDetail().getConnection(networkType: networkType),
                     ],
+                    "senseID": senseID,
                 ]
                 
                 if let jsonData = try? JSONSerialization.data(withJSONObject: data, options: .prettyPrinted),
